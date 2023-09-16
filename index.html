@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Form Submission</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="main">
+      <div class="app">
+    <div class="app2">
+      <h1>Subscribe Now</h1>
+      <p>We Will be setting our website Live soon.</p>
+      <p>So subscribe Rightnow</p>
+      <form name="submit-to-google-sheet" class="input">
+        <input
+          type="email"
+          placeholder="Your Email Here"
+          name="Email"
+          required
+        />
+        <textarea
+          name="Messages"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Message Goes Here"
+        ></textarea>
+        <div>
+          <input type="submit" id="btn">
+
+
+        </div>
+        
+
+      </form>
+      <span class="success">Form submitted Successfully!</span>
+    </div>
+    <div class="overlay"></div>
+    
+    </div>
+
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/3cdde02739.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

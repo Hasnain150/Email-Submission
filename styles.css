@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10%;
+}
+h1{
+    color: #FFEEF4;
+    margin-bottom: 10px;
+}
+p{
+    color: white;
+    padding-top: 3px;
+    
+}
+.app
+{
+    background-color: #61677A;
+    width: fit-content;
+    margin-top: 10%;
+    padding: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+
+
+}
+
+.input{
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 30px;
+    padding-left: 0px;
+
+}
+.input input{
+    padding: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 0px;
+    position: relative;
+    z-index: 2;
+}
+.input textarea{
+    background: transparent;
+    border: none;
+    padding: 20px;
+
+    outline: none;
+    padding-left: 0px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 2;
+}
+.input div{
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: #183D3D;
+    padding: 20px;
+    
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.app2 div{
+    padding: 0px;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 1, 1, 0.2); 
+    z-index: 1;
+}
+#btn{
+    padding: 20px;
+    width: 100%;
+}
+.input input:focus{
+    background: transparent;
+    outline: none;
+}
+.input input:active{
+    background: transparent;
+    outline: none;
+}
+.success{
+    color : white;
+    display: none;
+    font-size: 12px;
+}
+.displayBlock{
+    display: block ;
+}
+@media  screen and (max-width:500px) {
+    p{
+        font-size: 12px;
+    }
+    
+}
